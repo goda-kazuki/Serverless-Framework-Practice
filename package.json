@@ -1,0 +1,22 @@
+{
+  "name": "serverless-framework-practice",
+  "version": "1.0.0",
+  "description": "https://qiita.com/sugo/items/c9de09421fe8d78f5fbd",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goda-kazuki/Serverless-Framework-Practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goda-kazuki/Serverless-Framework-Practice/issues"
+  },
+  "homepage": "https://github.com/goda-kazuki/Serverless-Framework-Practice#readme",
+  "dependencies": {
+    "serverless": "^2.43.1"
+  }
+}

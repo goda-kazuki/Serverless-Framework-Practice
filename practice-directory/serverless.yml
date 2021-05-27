@@ -1,0 +1,15 @@
+service: Serverless-Framework-Practice
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  stage: dev
+  region: ap-northeast-1
+
+functions:
+  hello:
+    handler: handler.hello
+    environment: ${file(./dev.yml)}
+
