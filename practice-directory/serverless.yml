@@ -11,5 +11,5 @@ provider:
 functions:
   hello:
     handler: handler.hello
-    environment: ${file(./dev.yml)}
+    environment: ${file(./env/dev.yml)}
 
